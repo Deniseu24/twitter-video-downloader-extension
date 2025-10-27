@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body { font-family: system-ui, sans-serif; padding: 12px; min-width: 320px; }
+      input { width: 100%; padding: 8px; box-sizing: border-box; }
+      button { margin-top: 8px; padding: 8px; width: 100%; cursor: pointer; }
+      small { display:block; margin-top: 8px; opacity: .8; }
+      .hint { font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <h3 style="margin:0 0 8px">X/Twitter Video Downloader</h3>
+    <input id="url" type="text" placeholder="Paste tweet or direct video URL" />
+    <button id="go">Download</button>
+    <small id="msg" class="hint"></small>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

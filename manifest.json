@@ -1,0 +1,17 @@
+{
+  "name": "X/Twitter Video Downloader (Paste URL)",
+  "description": "Paste a tweet or direct media URL and download the video.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["downloads"],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://*.x.com/*",
+    "https://twitter.com/*",
+    "https://*.twitter.com/*",
+    "https://video.twimg.com/*",
+    "https://*.video.twimg.com/*"
+  ],
+  "background": { "service_worker": "background.js" }
+}

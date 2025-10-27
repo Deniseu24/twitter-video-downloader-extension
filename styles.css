@@ -1,0 +1,13 @@
+#url {
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#go {
+    border: 1px solid #1DA1F2;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #1DA1F2;
+    color: white;
+}
